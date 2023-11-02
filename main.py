@@ -27,7 +27,7 @@ def apply_gaussian_blur(image, kernel):
 
     return blurred_image.astype(np.uint8)
 
-image = Image.open('5.jpg')
+image = Image.open('1.png')
 image_array = np.array(image)
 
 # Создаем сетку для отображения изображений
